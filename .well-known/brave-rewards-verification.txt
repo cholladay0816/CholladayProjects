@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: cholladayprojects.com
+Token: cc4b245bb8560321e7687d1989146742ce5ab9f03e4cc1d67c3b62e66a0f05a9
