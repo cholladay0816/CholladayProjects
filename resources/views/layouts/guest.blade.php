@@ -4,6 +4,11 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="csrf-token" content="{{ csrf_token() }}">
+        <meta property='og:title' content='Welcome'/>
+        <meta property='og:site_name' content='{{env('APP_NAME')}}'/>
+        <meta property='og:type' content='website'/>
+        <meta property='og:description' content='Welcome to my web portfolio, where I post my projects, demos, and updates.'/>
+        <meta property='og:image' content='{{asset('img/profile_picture.png')}}'/>
 
         <title>{{ config('app.name', 'Laravel') }}</title>
 
