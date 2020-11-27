@@ -1,9 +1,9 @@
 <x-guest-layout>
     <section id="welcome">
     <div class="max-w-7xl min-h-screen mx-auto pb-20 md:py-20 text-black">
-        <div class="rounded-t bg-gray-700 p-5 md:mt-5">
+        <div class="rounded-t bg-dark p-5 md:mt-5">
             <h1 class="text-4xl font-bold text-center text-white">Welcome to Cholladay Projects!</h1>
-            <h2 class="text-xl font-semibold text-gray-300 text-center">The web portfolio for Christian Holladay</h2>
+            <h2 class="text-xl font-semibold text-gray-400 text-center">The web portfolio for Christian Holladay</h2>
         </div>
         <div class="rounded-b bg-white p-5 mb-5">
             <div class="text-lg text-black text-left">
@@ -41,9 +41,9 @@
         </div>
             </div>
             <div class="bg-white object-end rounded-b">
-                <div class="rounded-t bg-gray-700 p-5">
+                <div class="rounded-t bg-dark p-5">
                     <h2 class="text-4xl font-bold text-center text-white">Contact Information</h2>
-                    <h3 class="text-xl font-semibold text-gray-200 text-center">For business inquiries, please contact me through the following
+                    <h3 class="text-xl font-semibold text-gray-400 text-center">For business inquiries, please contact me through the following
                     channels for hiring or work-related messages.</h3>
                 </div>
                 <div class="flex flex-col p-5">
