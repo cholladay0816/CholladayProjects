@@ -26,5 +26,6 @@
         <div class="font-sans bg-gray-100 min-h-screen dark:bg-gray-900 text-black dark:text-white antialiased">
             {{ $slot }}
         </div>
+        {!! env('ADSENSE_SCRIPT') !!}
     </body>
 </html>

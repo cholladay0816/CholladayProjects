@@ -18,8 +18,6 @@
                 <p class="mb-5">
                     I have recently worked with a client -- Marketeer LLC -- to help with their backend web development. I am currently working on several independent web projects of my own.
                 </p>
-
-
             </div>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2">
