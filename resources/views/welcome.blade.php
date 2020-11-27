@@ -22,7 +22,7 @@
 
             </div>
         </div>
-        <div class="grid grid-cols-2">
+        <div class="grid grid-cols-1 md:grid-cols-2">
             <div class="">
         <div class="max-w-sm text-white mx-auto">
             <img class="w-full object-contain rounded-t" src="{{asset('/img/profile_picture.png')}}">
