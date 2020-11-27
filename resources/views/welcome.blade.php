@@ -12,7 +12,7 @@
                     I spend much of my free time teaching myself how to write code and making fun projects with my friends. I love bringing creations to life and programming gives me the tools to do just that.
                 </p>
                 <p class="mb-5">
-                    I am proficient with C#, PHP, HTML, CSS and Python; very knowledgable with Javascript, C++ and C; and have previously used Lua to some extent.
+                    I am proficient with C#, PHP, HTML, CSS, and Python; very knowledgable with Javascript, C++, and C; and have previously used Lua to some extent.
                     I have made at least a dozen games in Unity, a score of applications in .NET, a handful of Python apps, and a few websites.
                 </p>
                 <p class="mb-5">
