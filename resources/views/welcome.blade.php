@@ -1,7 +1,7 @@
 <x-guest-layout>
     <section id="welcome">
     <div class="max-w-7xl min-h-screen mx-auto py-20 text-black">
-        <div class="rounded-t bg-gray-300 p-5 mt-5">
+        <div class="rounded-t bg-gray-300 p-5 md:mt-5">
             <h1 class="text-4xl font-bold text-center">Welcome to Cholladay Projects!</h1>
             <h2 class="text-xl font-semibold text-gray-700 text-center">The web portfolio for Christian Holladay</h2>
         </div>
