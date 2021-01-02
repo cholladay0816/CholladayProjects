@@ -26,7 +26,7 @@
             <img class="w-full object-contain rounded-t" src="{{asset('/img/profile_picture.png')}}">
             <div class="flex flex-col px-5 bg-gradient-to-b from-blue-500 to-teal-400 rounded-b pt-2">
                 <h4 class="text-2xl font-bold">Cholladay</h4>
-                <h3 class="text-lg text-gray-200 pb-4">is building this website</h3>
+                <h3 class="text-lg text-gray-200 pb-4">is building websites</h3>
                 <p class="pb-4">If you only had one shot: would you take it and let it all go, or would you drop it and shoot?</p>
                 <div class="pb-4 mx-auto text-center ">
                     <span class="inline-block rounded bg-green-400 px-2 break-all text-white">Programmer</span>
