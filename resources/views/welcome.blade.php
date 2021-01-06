@@ -172,9 +172,10 @@
                         <div class="font-semibold text-gray-300">You should join the <span class="font-bold">Holladay Hangout</span> Discord server!</div>
                         <div class="border-l-2 border-yellow-300 text-white bg-opacity-10 hover:bg-opacity-25 bg-yellow-500 px-3">All the cool kids are already <a class="text-indigo-500 font-semibold">@here</a>.</div>
                         <a href="{{env('DISCORD_INVITE')}}" class="bg-indigo-500 border-white text-white text-xl rounded px-2 py-2 mr-auto mt-5 ">Click here to Join!</a>
-                        
+
                     </div>
                 </div>
+                <div class="text-sm text-gray-400 max-w-7xl mx-auto text-center pt-8">If you are interested in sponsoring my work on GitHub, please <a class="font-bold text-purple-400 hover:text-purple-500 border-b-2 border-transparent" href="https://github.com/sponsors/cholladay0816">click here</a>.  Every donation is greatly appreciated.</div>
             </div>
 
         </div>
