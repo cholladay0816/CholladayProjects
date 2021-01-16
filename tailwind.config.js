@@ -1,5 +1,5 @@
 const defaultTheme = require('tailwindcss/defaultTheme');
-
+const colors = require('tailwindcss/colors');
 module.exports = {
     purge: [
         './vendor/laravel/jetstream/**/*.blade.php',
@@ -13,14 +13,12 @@ module.exports = {
                 sans: ['Nunito', ...defaultTheme.fontFamily.sans],
             },
             colors: {
+                rose: colors.rose,
+                amber: colors.amber,
                 dark: '#1D1D1D',
             },
             opacity: {
                 '10': '10%',
-            },
-            screens: {
-                light: { raw: "(prefers-color-scheme: light)" },
-                dark: { raw: "(prefers-color-scheme: dark)" }
             },
         },
     },
@@ -29,5 +27,7 @@ module.exports = {
         opacity: ['responsive', 'hover', 'focus', 'disabled'],
     },
 
-    plugins: [require('@tailwindcss/ui')],
+    plugins: [
+	require('@tailwindcss/forms')
+	],
 };
