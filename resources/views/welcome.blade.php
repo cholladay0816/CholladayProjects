@@ -2,7 +2,7 @@
     <section id="welcome">
     <div class="max-w-7xl min-h-screen mx-auto pb-20 md:py-20 text-black">
         <div class="rounded-t bg-dark p-5 md:mt-5">
-            <h1 class="text-4xl font-bold text-center text-white">Welcome to Cholladay Projects!</h1>
+            <h1 class="text-4xl font-bold text-center text-white">Welcome to Cholladay Projects</h1>
             <h2 class="text-xl font-semibold text-gray-400 text-center">The web portfolio for Christian Holladay</h2>
         </div>
         <div class="rounded-b bg-white p-5 mb-5">
