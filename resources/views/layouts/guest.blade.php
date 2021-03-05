@@ -27,6 +27,5 @@
         <div class="font-sans bg-gray-100 min-h-screen dark:bg-darker text-black dark:text-white antialiased">
             {{ $slot }}
         </div>
-        {!! config('adsense.script') !!}
     </body>
 </html>
