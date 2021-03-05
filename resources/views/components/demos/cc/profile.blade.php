@@ -13,7 +13,7 @@
                         <div class="ml-4 mt-4">
                             <div class="flex items-center">
                                 <div class="flex-shrink-0">
-                                    <img class="shadow-lg h-16 w-16 md:h-48 md:w-48 rounded-full" src="{{asset('img/profile_picture.png')}}" alt="">
+                                    <img class="shadow-lg md:h-48 md:w-48 h-16 w-16 rounded-full" src="{{asset('img/profile_picture.png')}}" alt="">
                                 </div>
                                 <div class="ml-4 mt-4 flex-shrink-0 flex flex-col">
                                     <h1 class="flex font-semibold text-xl md:text-4xl">Christian Holladay</h1>
