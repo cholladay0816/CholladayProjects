@@ -1,7 +1,4 @@
 <x-guest-layout>
-    <section id="welcome">
-
-    </section>
     <div class="">
         <section id="creatorcore" class="">
             @component('components.demos.cc.profile')
@@ -23,7 +20,6 @@
                 @endcomponent
             </div>
             @endcomponent
-
         </section>
     </div>
 
