@@ -24,7 +24,7 @@
     </head>
     <body>
         <!-- Header -->
-        <div class="font-sans bg-gray-100 min-h-screen dark:bg-gray-900 text-black dark:text-white antialiased">
+        <div class="font-sans bg-gray-100 min-h-screen dark:bg-darker text-black dark:text-white antialiased">
             {{ $slot }}
         </div>
         {!! config('adsense.script') !!}
