@@ -17,7 +17,14 @@
                                 </div>
                                 <div class="ml-4 mt-4 flex-shrink-0 flex flex-col">
                                     <h1 class="flex font-semibold text-xl md:text-4xl">Christian Holladay</h1>
-                                    <p class="flex dark:text-gray-300 text-gray-500">Full Stack Developer</p>
+                                    <span class="flex dark:text-gray-300 text-gray-500">
+                                        <span class="transition-colors duration-150 border-opacity-0 border-b border-lightBlue-400 hover:border-opacity-100">
+                                            Full Stack Developer at
+                                            <a class="pointer-events-auto text-lightBlue-400 hover:text-lightBlue-300 transition-colors duration-200" href="https://www.elevatodigital.com">
+                                                Elevato
+                                            </a>
+                                        </span>
+                                    </span>
                                 </div>
                             </div>
                         </div>
