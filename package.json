@@ -1,26 +1,15 @@
 {
-    "private": true,
-    "scripts": {
-        "development": "mix",
-        "watch": "mix watch",
-        "watch-poll": "mix watch -- --watch-options-poll=1000",
-        "hot": "mix watch --hot",
-        "production": "mix --production"
-    },
-    "devDependencies": {
-        "autoprefixer": "^10.2.5",
-        "axios": "^1.21.0",
-        "laravel-mix": "^6.0.18",
-        "lodash": "^4.17.21",
-        "postcss": "^8.2.14",
-        "postcss-import": "^17.0.1",
-        "tailwindcss": "^2.1.2",
-        "webpack": "5.105.4"
-    },
-    "dependencies": {
-        "@tailwindcss/forms": "^0.2.1"
-    },
-    "overrides": {
-        "schema-utils@^4.0.0": "4.7.0"
-    }
+  "name": "cholladay-projects",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "production": "npm run build",
+    "dev": "npm run build && wrangler dev --local",
+    "test": "node --test tests/*.test.mjs",
+    "test:http": "node scripts/check-http.mjs",
+    "check:deploy": "npm run build && wrangler deploy --dry-run --outdir .wrangler/dry-run"
+  },
+  "devDependencies": { "wrangler": "4.157.0" }
 }

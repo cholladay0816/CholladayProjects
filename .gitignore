@@ -13,3 +13,9 @@ yarn-error.log
 .idea
 supervisord.pid
 supervisord.log
+
+/dist/
+/.wrangler/
+/storage/
+/bootstrap/cache/
+/test-results/
