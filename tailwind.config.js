@@ -16,7 +16,7 @@ module.exports = {
             colors: {
                 rose: colors.rose,
                 amber: colors.amber,
-                lightBlue: colors.lightBlue,
+                lightBlue: colors.sky,
                 dark: '#1D1D1D',
                 darker: '#0D0D0D',
             },

@@ -1,3 +1,5 @@
+/*! Axios v1.21.0 Copyright (c) 2026 Matt Zabriskie and contributors */
+
 /**
  * @license
  * Lodash <https://lodash.com/>
