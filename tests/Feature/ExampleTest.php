@@ -17,5 +17,14 @@ class ExampleTest extends TestCase
         $response = $this->get('/');
 
         $response->assertStatus(200);
+        $response->assertSee('Christian Holladay');
+        $response->assertSee('My GitHub Stats');
+    }
+
+    public function testAuthenticationPagesStillRender()
+    {
+        foreach (['/login', '/register', '/forgot-password'] as $path) {
+            $this->get($path)->assertOk();
+        }
     }
 }
