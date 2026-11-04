@@ -1,0 +1,24 @@
+name: Static portfolio
+on:
+  pull_request:
+  push:
+    branches: [master]
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    env:
+      WRANGLER_SEND_METRICS: 'false'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+          cache: npm
+      - run: npm ci
+      - run: npm audit --audit-level=low
+      - run: npm run build
+      - run: npm test
+      - run: npm run test:http
+      - run: npm run check:deploy

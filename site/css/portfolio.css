@@ -1,0 +1,16 @@
+/* Additions to the retained portfolio stylesheet; no CSS build step. */
+html { color-scheme: dark; }
+body { margin: 0; }
+img { max-width: 100%; height: auto; }
+a:focus-visible { outline: 2px solid #38bdf8; outline-offset: 5px; }
+.profile-page .flex-shrink-0.flex-col { min-width: 0; flex-shrink: 1; }
+.profile-page h1 { overflow-wrap: anywhere; }
+.github-stats { display: block; max-width: 467px; }
+.stats-link { display: block; margin-top: 12px; color: #38bdf8; font-size: 14px; }
+.error-page { background: #0d0d0d; color: #fff; font-family: Nunito, sans-serif; }
+.error-content { max-width: 40rem; margin: 15vh auto; padding: 2rem; }
+.error-content h1 { font-size: 2rem; margin-bottom: 1rem; }
+.error-content p { color: #d1d5db; margin-bottom: 1rem; }
+.error-content a { color: #38bdf8; }
+.profile-page .grid > div { min-width: 0; }
+.profile-page .mx-auto.my-auto { max-width: 100%; min-width: 0; }

@@ -1,0 +1,19 @@
+{
+    "$schema": "node_modules/wrangler/config-schema.json",
+    "name": "cholladay-projects",
+    "compatibility_date": "2026-11-04",
+    "main": "worker/retired-routes.mjs",
+    "assets": {
+        "binding": "ASSETS",
+        "directory": "./dist",
+        "not_found_handling": "404-page",
+        "html_handling": "auto-trailing-slash",
+        "run_worker_first": [
+            "/login", "/login/*", "/logout", "/logout/*",
+            "/register", "/register/*", "/forgot-password", "/forgot-password/*",
+            "/reset-password", "/reset-password/*", "/two-factor-challenge", "/two-factor-challenge/*",
+            "/user", "/user/*", "/api", "/api/*", "/sanctum", "/sanctum/*",
+            "/livewire", "/livewire/*", "/*/livewire/message/*"
+        ]
+    }
+}
