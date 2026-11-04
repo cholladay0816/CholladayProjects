@@ -29,6 +29,7 @@ The test encryption key in `phpunit.xml` is public test-only data, not a deploym
 - Keep the existing `lightBlue` utility names while reading Tailwind's renamed `sky` palette.
 - Rebuild the checked-in browser assets so the deployed JavaScript receives the updated Axios and Lodash code.
 - Add homepage and authentication-page smoke coverage and CI for reproducible installs, tests, builds and visible audits.
+- Align the existing Sail container with PHP 8.2 and Node 24. Rebuild the local container with `vendor/bin/sail build --no-cache` before starting it with the refreshed lockfile. The Docker image itself was not built during this update.
 
 ## Remaining security work
 
